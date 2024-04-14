@@ -1,0 +1,40 @@
+Epoch 1/25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m107/107[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 290ms/step - accuracy: 0.6872 - loss: 0.8170
+2024-04-08 08:47:15.900189: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+/usr/lib/python3.10/contextlib.py:153: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(typ, value, traceback)
+Epoch 1: val_loss did not improve from 1.33429
+[1m107/107[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m38s[22m 351ms/step - accuracy: 0.6874 - loss: 0.8167 - val_accuracy: 0.3750 - val_loss: 1.9087
+Epoch 2/25
+Epoch 2: val_loss did not improve from 1.33429
+[1m107/107[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m7s[22m 63ms/step - accuracy: 0.0000e+00 - loss: 0.0000e+00 - val_accuracy: 0.3750 - val_loss: 1.9087
+Epoch 3/25
+
+
+
+
+
+
+
+
+
+
+
+[1m 69/107[22m [32m━━━━━━━━━━━━[37m━━━━━━━━[39m [1m11s[22m 301ms/step - accuracy: 0.7594 - loss: 0.6454Found 428 images belonging to 4 classes.
+Found 104 images belonging to 4 classes.

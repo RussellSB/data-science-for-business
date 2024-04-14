@@ -1,0 +1,64 @@
+
+Epoch 1/25
+/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 1s/step - accuracy: 0.7274 - loss: 0.8893
+Epoch 1: val_loss improved from inf to 4.32133, saving model to weights.keras
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m53s[22m 2s/step - accuracy: 0.7321 - loss: 0.8748 - val_accuracy: 0.2500 - val_loss: 4.3213
+Epoch 2/25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 1s/step - accuracy: 0.9397 - loss: 0.1138
+Epoch 2: val_loss did not improve from 4.32133
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 2s/step - accuracy: 0.9391 - loss: 0.1151 - val_accuracy: 0.2500 - val_loss: 5.8980
+Epoch 3/25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 1s/step - accuracy: 0.8790 - loss: 0.3816[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+Found 428 images belonging to 4 classes.
+Found 104 images belonging to 4 classes.

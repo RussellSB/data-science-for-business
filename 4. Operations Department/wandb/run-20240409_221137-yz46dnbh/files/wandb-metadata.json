@@ -1,0 +1,101 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-04-09T21:11:38.053323",
+    "startedAt": "2024-04-09T21:11:37.285515",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Macey",
+    "username": "russellsb",
+    "executable": "/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0089999999996,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.009,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 33.793216705322266
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.542224884033203
+    }
+}

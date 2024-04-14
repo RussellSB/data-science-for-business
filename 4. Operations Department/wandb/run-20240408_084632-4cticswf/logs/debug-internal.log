@@ -1,0 +1,280 @@
+2024-04-08 08:46:37,066 INFO    StreamThr :645815 [internal.py:wandb_internal():86] W&B internal server running at pid: 645815, started at: 2024-04-08 08:46:37.063803
+2024-04-08 08:46:37,068 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status
+2024-04-08 08:46:37,069 INFO    WriterThread:645815 [datastore.py:open_for_write():87] open: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/run-4cticswf.wandb
+2024-04-08 08:46:37,073 DEBUG   SenderThread:645815 [sender.py:send():379] send: header
+2024-04-08 08:46:37,078 DEBUG   SenderThread:645815 [sender.py:send():379] send: run
+2024-04-08 08:46:37,551 INFO    SenderThread:645815 [dir_watcher.py:__init__():211] watching files in: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files
+2024-04-08 08:46:37,551 INFO    SenderThread:645815 [sender.py:_start_run_threads():1124] run started: 4cticswf with start time 1712562396.117941
+2024-04-08 08:46:37,566 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: check_version
+2024-04-08 08:46:37,566 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: check_version
+2024-04-08 08:46:37,677 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: run_start
+2024-04-08 08:46:37,678 DEBUG   HandlerThread:645815 [system_info.py:__init__():26] System info init
+2024-04-08 08:46:37,679 DEBUG   HandlerThread:645815 [system_info.py:__init__():41] System info init done
+2024-04-08 08:46:37,679 INFO    HandlerThread:645815 [system_monitor.py:start():194] Starting system monitor
+2024-04-08 08:46:37,679 INFO    SystemMonitor:645815 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-08 08:46:37,680 INFO    HandlerThread:645815 [system_monitor.py:probe():214] Collecting system info
+2024-04-08 08:46:37,680 INFO    SystemMonitor:645815 [interfaces.py:start():190] Started cpu monitoring
+2024-04-08 08:46:37,683 INFO    SystemMonitor:645815 [interfaces.py:start():190] Started disk monitoring
+2024-04-08 08:46:37,684 INFO    SystemMonitor:645815 [interfaces.py:start():190] Started gpu monitoring
+2024-04-08 08:46:37,685 INFO    SystemMonitor:645815 [interfaces.py:start():190] Started memory monitoring
+2024-04-08 08:46:37,687 INFO    SystemMonitor:645815 [interfaces.py:start():190] Started network monitoring
+2024-04-08 08:46:37,693 DEBUG   HandlerThread:645815 [system_info.py:probe():150] Probing system
+2024-04-08 08:46:37,702 DEBUG   HandlerThread:645815 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-08 08:46:37,703 DEBUG   HandlerThread:645815 [system_info.py:probe():198] Probing system done
+2024-04-08 08:46:37,703 DEBUG   HandlerThread:645815 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-04-08T07:46:37.693506', 'startedAt': '2024-04-08T07:46:32.471043', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Macey', 'username': 'russellsb', 'executable': '/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0089999999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 14.70809555053711}}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.542224884033203}}
+2024-04-08 08:46:37,703 INFO    HandlerThread:645815 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-08 08:46:37,703 INFO    HandlerThread:645815 [system_monitor.py:probe():227] Publishing system info
+2024-04-08 08:46:37,707 INFO    HandlerThread:645815 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-08 08:46:37,707 DEBUG   SenderThread:645815 [sender.py:send():379] send: files
+2024-04-08 08:46:37,708 INFO    SenderThread:645815 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-08 08:46:37,822 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-08 08:46:37,823 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: python_packages
+2024-04-08 08:46:37,904 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:46:37,909 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:46:37,916 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:46:38,172 DEBUG   SenderThread:645815 [sender.py:send():379] send: telemetry
+2024-04-08 08:46:38,173 DEBUG   SenderThread:645815 [sender.py:send():379] send: telemetry
+2024-04-08 08:46:38,173 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:46:38,173 DEBUG   SenderThread:645815 [sender.py:send():379] send: telemetry
+2024-04-08 08:46:38,174 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:46:38,174 WARNING SenderThread:645815 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-04-08 08:46:38,327 INFO    wandb-upload_0:645815 [upload_job.py:push():131] Uploaded file /tmp/tmpw12eccluwandb/xhgo8lyl-wandb-metadata.json
+2024-04-08 08:46:38,562 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-metadata.json
+2024-04-08 08:46:38,564 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/requirements.txt
+2024-04-08 08:46:38,566 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:40,572 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:42,192 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:46:42,588 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:44,607 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:46,633 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:47,215 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:46:48,646 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:50,661 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:52,434 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:46:52,675 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:52,823 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:46:52,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:46:52,824 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:46:54,689 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:56,700 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:46:57,703 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:46:58,715 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:00,729 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:02,746 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:02,915 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:04,762 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:06,775 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:07,823 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:47:07,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:47:07,824 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:47:08,055 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:08,790 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/config.yaml
+2024-04-08 08:47:08,791 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:10,801 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:13,436 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:15,876 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 08:47:15,878 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:47:15,879 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:47:15,879 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:47:15,879 DEBUG   SenderThread:645815 [sender.py:send():379] send: metric
+2024-04-08 08:47:15,879 DEBUG   SenderThread:645815 [sender.py:send():379] send: history
+2024-04-08 08:47:15,880 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 08:47:15,883 INFO    SenderThread:645815 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 08:47:16,844 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-summary.json
+2024-04-08 08:47:18,858 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:18,908 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:22,617 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 08:47:22,618 DEBUG   SenderThread:645815 [sender.py:send():379] send: history
+2024-04-08 08:47:22,618 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 08:47:22,623 INFO    SenderThread:645815 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 08:47:22,823 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:47:22,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:47:22,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:47:22,892 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-summary.json
+2024-04-08 08:47:24,163 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:24,914 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:26,933 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:28,953 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:29,436 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:30,978 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:32,991 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:34,459 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:35,009 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:37,028 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:37,688 DEBUG   SystemMonitor:645815 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-08 08:47:37,692 DEBUG   SenderThread:645815 [sender.py:send():379] send: stats
+2024-04-08 08:47:37,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:47:37,825 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:47:37,826 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:47:39,046 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:39,710 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:40,063 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/config.yaml
+2024-04-08 08:47:41,075 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:43,089 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:45,026 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:45,105 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:47,119 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:47:50,027 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:47:52,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:47:52,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:47:52,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:47:55,981 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:00,983 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:05,984 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:07,693 DEBUG   SenderThread:645815 [sender.py:send():379] send: stats
+2024-04-08 08:48:07,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:48:07,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:48:07,866 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:48:11,058 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:16,060 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:21,061 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:22,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:48:22,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:48:22,866 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:48:26,065 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:31,066 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:36,067 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:37,694 DEBUG   SenderThread:645815 [sender.py:send():379] send: stats
+2024-04-08 08:48:37,824 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:48:37,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:48:37,866 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:48:41,075 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:46,076 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:51,077 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:52,825 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 08:48:52,825 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 08:48:52,866 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:48:54,482 DEBUG   SenderThread:645815 [sender.py:send():379] send: telemetry
+2024-04-08 08:48:54,486 DEBUG   SenderThread:645815 [sender.py:send():379] send: exit
+2024-04-08 08:48:54,486 INFO    SenderThread:645815 [sender.py:send_exit():586] handling exit code: 0
+2024-04-08 08:48:54,486 INFO    SenderThread:645815 [sender.py:send_exit():588] handling runtime: 136
+2024-04-08 08:48:54,490 INFO    SenderThread:645815 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 08:48:54,492 INFO    SenderThread:645815 [sender.py:send_exit():594] send defer
+2024-04-08 08:48:54,492 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,493 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-08 08:48:54,493 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,494 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-08 08:48:54,494 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 1
+2024-04-08 08:48:54,494 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,495 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-08 08:48:54,495 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,496 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-08 08:48:54,496 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 2
+2024-04-08 08:48:54,496 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,497 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-08 08:48:54,497 INFO    HandlerThread:645815 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-08 08:48:54,498 DEBUG   SystemMonitor:645815 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-08 08:48:54,499 INFO    HandlerThread:645815 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-08 08:48:54,499 DEBUG   SystemMonitor:645815 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-08 08:48:54,499 INFO    HandlerThread:645815 [interfaces.py:finish():202] Joined disk monitor
+2024-04-08 08:48:54,522 INFO    HandlerThread:645815 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-08 08:48:54,523 INFO    HandlerThread:645815 [interfaces.py:finish():202] Joined memory monitor
+2024-04-08 08:48:54,523 INFO    HandlerThread:645815 [interfaces.py:finish():202] Joined network monitor
+2024-04-08 08:48:54,524 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,525 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-08 08:48:54,525 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 3
+2024-04-08 08:48:54,525 DEBUG   SenderThread:645815 [sender.py:send():379] send: stats
+2024-04-08 08:48:54,525 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,526 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-08 08:48:54,527 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,527 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-08 08:48:54,527 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 4
+2024-04-08 08:48:54,528 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,528 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-08 08:48:54,528 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,528 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-08 08:48:54,529 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 5
+2024-04-08 08:48:54,529 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,529 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-08 08:48:54,530 DEBUG   SenderThread:645815 [sender.py:send():379] send: summary
+2024-04-08 08:48:54,532 INFO    SenderThread:645815 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 08:48:54,533 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,533 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-08 08:48:54,533 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 6
+2024-04-08 08:48:54,534 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,534 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-08 08:48:54,534 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,534 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-08 08:48:54,540 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 08:48:54,607 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-summary.json
+2024-04-08 08:48:54,609 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:48:54,744 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 7
+2024-04-08 08:48:54,745 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:54,745 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-08 08:48:54,746 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:54,746 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-08 08:48:55,486 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 08:48:55,614 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/config.yaml
+2024-04-08 08:48:58,029 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 8
+2024-04-08 08:48:58,030 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 08:48:58,030 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:58,031 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-08 08:48:58,032 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:58,032 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-08 08:48:58,032 INFO    SenderThread:645815 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-08 08:48:58,040 INFO    SenderThread:645815 [job_builder.py:_get_source_type():466] no source found
+2024-04-08 08:48:58,041 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 9
+2024-04-08 08:48:58,041 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:58,042 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-08 08:48:58,043 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:58,043 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-08 08:48:58,043 INFO    SenderThread:645815 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-08 08:48:58,487 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 08:48:58,639 INFO    Thread-49 :645815 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:48:58,650 INFO    SenderThread:645815 [dir_watcher.py:finish():388] scan: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files
+2024-04-08 08:48:58,652 INFO    SenderThread:645815 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/config.yaml config.yaml
+2024-04-08 08:48:58,659 INFO    SenderThread:645815 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log output.log
+2024-04-08 08:48:58,665 INFO    SenderThread:645815 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/requirements.txt requirements.txt
+2024-04-08 08:48:58,671 INFO    SenderThread:645815 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-metadata.json wandb-metadata.json
+2024-04-08 08:48:58,672 INFO    SenderThread:645815 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-summary.json wandb-summary.json
+2024-04-08 08:48:58,678 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 10
+2024-04-08 08:48:58,679 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 08:48:58,679 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:58,679 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-08 08:48:58,680 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:58,682 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-08 08:48:58,682 INFO    SenderThread:645815 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 08:48:59,098 INFO    wandb-upload_0:645815 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/config.yaml
+2024-04-08 08:48:59,125 INFO    wandb-upload_1:645815 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/output.log
+2024-04-08 08:48:59,247 INFO    wandb-upload_3:645815 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/wandb-summary.json
+2024-04-08 08:48:59,262 INFO    wandb-upload_2:645815 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/files/requirements.txt
+2024-04-08 08:48:59,463 INFO    Thread-48 (_thread_body):645815 [sender.py:transition_state():614] send defer: 11
+2024-04-08 08:48:59,464 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:59,464 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-08 08:48:59,465 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:59,465 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-08 08:48:59,465 INFO    SenderThread:645815 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 08:48:59,466 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 12
+2024-04-08 08:48:59,466 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:59,467 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-08 08:48:59,467 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:59,467 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-08 08:48:59,468 INFO    SenderThread:645815 [file_stream.py:finish():614] file stream finish called
+2024-04-08 08:48:59,487 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 08:48:59,886 INFO    SenderThread:645815 [file_stream.py:finish():618] file stream finish is done
+2024-04-08 08:48:59,886 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 13
+2024-04-08 08:48:59,887 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 08:48:59,887 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:59,888 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-08 08:48:59,889 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:59,889 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-08 08:48:59,890 INFO    SenderThread:645815 [sender.py:transition_state():614] send defer: 14
+2024-04-08 08:48:59,890 DEBUG   SenderThread:645815 [sender.py:send():379] send: final
+2024-04-08 08:48:59,891 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 08:48:59,891 INFO    HandlerThread:645815 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-08 08:48:59,891 DEBUG   SenderThread:645815 [sender.py:send():379] send: footer
+2024-04-08 08:48:59,892 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: defer
+2024-04-08 08:48:59,892 INFO    SenderThread:645815 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-08 08:48:59,893 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 08:48:59,894 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 08:48:59,895 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 08:48:59,896 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: server_info
+2024-04-08 08:48:59,896 DEBUG   SenderThread:645815 [sender.py:send_request():406] send_request: server_info
+2024-04-08 08:48:59,946 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-08 08:48:59,946 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-08 08:49:00,024 DEBUG   HandlerThread:645815 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-08 08:49:00,025 INFO    HandlerThread:645815 [handler.py:finish():866] shutting down handler
+2024-04-08 08:49:00,897 INFO    WriterThread:645815 [datastore.py:close():296] close: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240408_084632-4cticswf/run-4cticswf.wandb
+2024-04-08 08:49:01,024 INFO    SenderThread:645815 [sender.py:finish():1546] shutting down sender
+2024-04-08 08:49:01,024 INFO    SenderThread:645815 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 08:49:01,025 INFO    SenderThread:645815 [file_pusher.py:join():178] waiting for file pusher

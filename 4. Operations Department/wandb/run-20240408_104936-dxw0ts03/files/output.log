@@ -1,0 +1,446 @@
+
+Epoch 1/30
+/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 579ms/step - accuracy: 0.6972 - loss: 0.8227
+Epoch 1: val_loss improved from inf to 1.12932, saving model to weights.keras
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m50s[22m 776ms/step - accuracy: 0.7001 - loss: 0.8153 - val_accuracy: 0.7019 - val_loss: 1.1293
+Epoch 2/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 576ms/step - accuracy: 0.8850 - loss: 0.2861
+Epoch 2: val_loss improved from 1.12932 to 0.62020, saving model to weights.keras
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 728ms/step - accuracy: 0.8853 - loss: 0.2857 - val_accuracy: 0.8269 - val_loss: 0.6202
+Epoch 3/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 580ms/step - accuracy: 0.9502 - loss: 0.1664
+Epoch 3: val_loss did not improve from 0.62020
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 707ms/step - accuracy: 0.9497 - loss: 0.1672 - val_accuracy: 0.5673 - val_loss: 1.9575
+Epoch 4/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 582ms/step - accuracy: 0.9595 - loss: 0.1229
+Epoch 4: val_loss did not improve from 0.62020
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 706ms/step - accuracy: 0.9595 - loss: 0.1232 - val_accuracy: 0.6250 - val_loss: 1.8014
+Epoch 5/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 587ms/step - accuracy: 0.9421 - loss: 0.1716
+Epoch 5: val_loss did not improve from 0.62020
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 718ms/step - accuracy: 0.9420 - loss: 0.1719 - val_accuracy: 0.7019 - val_loss: 1.3982
+Epoch 6/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 587ms/step - accuracy: 0.9427 - loss: 0.2303
+Epoch 6: val_loss did not improve from 0.62020
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 719ms/step - accuracy: 0.9426 - loss: 0.2302 - val_accuracy: 0.8750 - val_loss: 0.6365
+Epoch 7/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 604ms/step - accuracy: 0.9558 - loss: 0.1425
+Epoch 7: val_loss did not improve from 0.62020
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m41s[22m 735ms/step - accuracy: 0.9559 - loss: 0.1421 - val_accuracy: 0.6154 - val_loss: 3.3490
+Epoch 8/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 597ms/step - accuracy: 0.9185 - loss: 0.2062
+Epoch 8: val_loss improved from 0.62020 to 0.56551, saving model to weights.keras
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m42s[22m 755ms/step - accuracy: 0.9184 - loss: 0.2064 - val_accuracy: 0.8365 - val_loss: 0.5655
+Epoch 9/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 598ms/step - accuracy: 0.9570 - loss: 0.1109
+Epoch 9: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m41s[22m 732ms/step - accuracy: 0.9569 - loss: 0.1117 - val_accuracy: 0.7308 - val_loss: 1.1918
+Epoch 10/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 595ms/step - accuracy: 0.9352 - loss: 0.2016
+Epoch 10: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 721ms/step - accuracy: 0.9355 - loss: 0.2006 - val_accuracy: 0.4712 - val_loss: 4.0795
+Epoch 11/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 583ms/step - accuracy: 0.9308 - loss: 0.1743
+Epoch 11: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 709ms/step - accuracy: 0.9312 - loss: 0.1733 - val_accuracy: 0.6731 - val_loss: 2.3943
+Epoch 12/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 589ms/step - accuracy: 0.9122 - loss: 0.2108
+Epoch 12: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 716ms/step - accuracy: 0.9124 - loss: 0.2104 - val_accuracy: 0.6923 - val_loss: 1.6560
+Epoch 13/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 587ms/step - accuracy: 0.9652 - loss: 0.0769
+Epoch 13: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m40s[22m 715ms/step - accuracy: 0.9649 - loss: 0.0783 - val_accuracy: 0.7692 - val_loss: 1.3371
+Epoch 14/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 544ms/step - accuracy: 0.9520 - loss: 0.1177
+Epoch 14: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m37s[22m 671ms/step - accuracy: 0.9521 - loss: 0.1179 - val_accuracy: 0.6731 - val_loss: 2.0791
+Epoch 15/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 526ms/step - accuracy: 0.9691 - loss: 0.0664
+Epoch 15: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m36s[22m 640ms/step - accuracy: 0.9687 - loss: 0.0676 - val_accuracy: 0.6635 - val_loss: 2.2896
+Epoch 16/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 530ms/step - accuracy: 0.9717 - loss: 0.0823
+Epoch 16: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m36s[22m 645ms/step - accuracy: 0.9716 - loss: 0.0829 - val_accuracy: 0.3558 - val_loss: 5.6508
+Epoch 17/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 573ms/step - accuracy: 0.9814 - loss: 0.0691
+Epoch 17: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m38s[22m 698ms/step - accuracy: 0.9810 - loss: 0.0700 - val_accuracy: 0.8462 - val_loss: 0.9923
+Epoch 18/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 579ms/step - accuracy: 0.9387 - loss: 0.2168
+Epoch 18: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 706ms/step - accuracy: 0.9386 - loss: 0.2163 - val_accuracy: 0.8558 - val_loss: 0.7784
+Epoch 19/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 575ms/step - accuracy: 0.9640 - loss: 0.1000
+Epoch 19: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 700ms/step - accuracy: 0.9639 - loss: 0.1003 - val_accuracy: 0.6058 - val_loss: 2.3987
+Epoch 20/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 579ms/step - accuracy: 0.9746 - loss: 0.0884
+Epoch 20: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 702ms/step - accuracy: 0.9745 - loss: 0.0886 - val_accuracy: 0.9038 - val_loss: 0.7499
+Epoch 21/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 578ms/step - accuracy: 0.9722 - loss: 0.0790
+Epoch 21: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 701ms/step - accuracy: 0.9717 - loss: 0.0801 - val_accuracy: 0.7596 - val_loss: 1.5392
+Epoch 22/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 583ms/step - accuracy: 0.9808 - loss: 0.0442
+Epoch 22: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 708ms/step - accuracy: 0.9804 - loss: 0.0449 - val_accuracy: 0.5000 - val_loss: 4.7562
+Epoch 23/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 580ms/step - accuracy: 0.9914 - loss: 0.0386
+Epoch 23: val_loss did not improve from 0.56551
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m39s[22m 707ms/step - accuracy: 0.9913 - loss: 0.0392 - val_accuracy: 0.7981 - val_loss: 1.7479

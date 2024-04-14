@@ -1,0 +1,166 @@
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op TensorDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op FlatMapDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op DummySeedGenerator in device /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op ShuffleDatasetV3 in device /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op PrefetchDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Epoch 1/25
+Executing op AnonymousIteratorV3 in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op MakeIterator in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.565774: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.565820: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.565829: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.587956: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.588003: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.588011: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592290: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592334: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592344: I tensorflow/core/common_runtime/placer.cc:125] seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592351: I tensorflow/core/common_runtime/placer.cc:125] seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592357: I tensorflow/core/common_runtime/placer.cc:125] seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592367: I tensorflow/core/common_runtime/placer.cc:125] ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.592374: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.595872: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.595930: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.595947: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:49.595957: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.735310: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.735363: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.738601: I tensorflow/core/common_runtime/placer.cc:125] resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.738644: I tensorflow/core/common_runtime/placer.cc:125] value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.738657: I tensorflow/core/common_runtime/placer.cc:125] AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.746006: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.746049: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.777935: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.777976: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.783971: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.784026: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.813009: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.813051: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.821338: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.821381: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.840982: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.841021: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.847542: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:42:52.847581: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Found 428 images belonging to 4 classes.
+Found 104 images belonging to 4 classes.

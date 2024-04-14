@@ -1,0 +1,863 @@
+2024-04-09 19:42:52,015 INFO    StreamThr :108636 [internal.py:wandb_internal():86] W&B internal server running at pid: 108636, started at: 2024-04-09 19:42:52.013451
+2024-04-09 19:42:52,017 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status
+2024-04-09 19:42:52,023 INFO    WriterThread:108636 [datastore.py:open_for_write():87] open: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/run-fgb337w3.wandb
+2024-04-09 19:42:52,026 DEBUG   SenderThread:108636 [sender.py:send():379] send: header
+2024-04-09 19:42:52,050 DEBUG   SenderThread:108636 [sender.py:send():379] send: run
+2024-04-09 19:42:52,563 INFO    SenderThread:108636 [dir_watcher.py:__init__():211] watching files in: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files
+2024-04-09 19:42:52,564 INFO    SenderThread:108636 [sender.py:_start_run_threads():1124] run started: fgb337w3 with start time 1712688172.014018
+2024-04-09 19:42:52,579 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: check_version
+2024-04-09 19:42:52,580 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: check_version
+2024-04-09 19:42:52,712 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: run_start
+2024-04-09 19:42:52,760 DEBUG   HandlerThread:108636 [system_info.py:__init__():26] System info init
+2024-04-09 19:42:52,760 DEBUG   HandlerThread:108636 [system_info.py:__init__():41] System info init done
+2024-04-09 19:42:52,760 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:42:52,761 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:42:52,761 INFO    HandlerThread:108636 [system_monitor.py:probe():214] Collecting system info
+2024-04-09 19:42:52,762 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:42:52,763 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:42:52,765 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:42:52,766 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:42:52,767 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:42:52,780 DEBUG   HandlerThread:108636 [system_info.py:probe():150] Probing system
+2024-04-09 19:42:52,805 DEBUG   HandlerThread:108636 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-09 19:42:52,805 DEBUG   HandlerThread:108636 [system_info.py:probe():198] Probing system done
+2024-04-09 19:42:52,806 DEBUG   HandlerThread:108636 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-04-09T18:42:52.781166', 'startedAt': '2024-04-09T18:42:51.947658', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Macey', 'username': 'russellsb', 'executable': '/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0089999999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}, {'current': 2592.009, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 33.714019775390625}}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.542224884033203}}
+2024-04-09 19:42:52,806 INFO    HandlerThread:108636 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-09 19:42:52,806 INFO    HandlerThread:108636 [system_monitor.py:probe():227] Publishing system info
+2024-04-09 19:42:52,809 INFO    HandlerThread:108636 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-09 19:42:52,813 DEBUG   SenderThread:108636 [sender.py:send():379] send: files
+2024-04-09 19:42:52,813 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-09 19:42:52,901 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-09 19:42:52,901 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:42:52,902 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: python_packages
+2024-04-09 19:42:52,903 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:42:52,906 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:42:52,959 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:42:52,960 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:42:52,960 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:42:52,960 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:42:52,961 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:42:52,961 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:42:52,962 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:42:52,962 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:42:52,977 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:42:52,978 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:42:52,978 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:42:53,271 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:42:53,271 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:42:53,441 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/zmqmqs2c-wandb-metadata.json
+2024-04-09 19:42:53,573 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/requirements.txt
+2024-04-09 19:42:53,575 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-metadata.json
+2024-04-09 19:42:57,273 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:42:58,961 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:42:58,962 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:42:58,962 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:42:58,963 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:42:58,964 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:42:58,965 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:42:58,967 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:42:58,969 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:42:58,972 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:42:59,094 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:42:59,095 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:42:59,095 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:42:59,096 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:42:59,097 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:42:59,097 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:42:59,097 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:42:59,098 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:42:59,114 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:42:59,115 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:42:59,115 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:42:59,116 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:42:59,617 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:01,628 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:03,117 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:03,601 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:43:03,601 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:43:03,602 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:43:03,602 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:43:03,604 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:43:03,604 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:43:03,605 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:03,606 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:43:03,607 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:43:03,609 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:03,608 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:43:03,609 WARNING SenderThread:108636 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-04-09 19:43:03,611 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:43:03,612 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:43:05,651 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:07,703 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:07,908 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:43:07,908 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:43:07,909 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:43:09,074 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:09,723 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:11,737 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:13,749 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:14,885 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:19,887 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:21,795 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:22,902 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:43:22,902 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:43:22,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:43:23,806 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:24,958 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:25,819 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:25,820 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/config.yaml
+2024-04-09 19:43:27,839 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:29,851 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:30,146 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:31,875 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:32,292 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:43:32,293 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:32,294 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:32,295 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:32,295 DEBUG   SenderThread:108636 [sender.py:send():379] send: metric
+2024-04-09 19:43:32,296 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:43:32,297 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:43:32,300 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:43:32,884 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:43:33,890 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:35,161 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:35,904 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:37,902 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:43:37,903 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:43:37,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:43:37,918 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:39,934 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:40,170 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:41,893 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:43:41,894 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:43:41,895 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:43:41,899 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:43:41,999 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:42,000 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:43:44,014 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:45,174 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:46,028 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:48,045 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:50,058 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:50,184 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:51,641 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:43:51,643 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:43:51,643 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:43:51,649 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:43:52,217 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:52,218 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:43:52,902 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:43:52,903 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:43:52,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:43:54,240 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:55,569 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:43:56,263 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:43:56,264 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/config.yaml
+2024-04-09 19:43:58,283 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:00,317 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:00,601 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:00,602 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:00,603 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:00,606 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:01,264 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:01,325 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:02,333 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:03,613 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:44:03,618 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:44:04,349 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:06,290 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:06,364 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:07,902 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:44:07,903 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:44:07,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:44:08,377 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:10,527 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:10,532 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:10,533 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:10,536 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:10,538 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:10,539 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:11,301 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:11,546 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:12,556 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:14,569 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:16,307 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:16,584 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:17,591 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:18,657 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:19,665 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:19,807 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:19,808 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:19,809 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:19,813 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:20,816 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:20,817 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:21,365 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:21,824 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:22,844 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:22,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:44:22,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:44:22,906 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:44:24,858 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:26,367 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:26,881 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:27,888 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:29,056 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:29,333 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:29,334 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:29,335 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:29,338 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:30,065 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:30,065 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:31,080 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:31,396 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:32,088 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:33,096 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:33,617 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:44:35,120 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:36,430 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:37,166 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:37,903 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:44:37,904 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:44:37,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:44:38,174 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:38,360 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:38,362 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:38,363 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:38,368 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:39,182 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:39,183 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:40,191 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:41,197 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:41,435 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:43,212 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:45,229 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:46,237 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:46,453 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:46,622 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:46,624 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:46,625 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:46,629 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:47,265 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:47,266 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:48,273 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:49,278 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:51,291 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:51,456 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:52,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:44:52,905 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:44:52,907 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:44:53,307 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:54,312 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:54,839 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:44:54,841 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:44:54,841 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:44:54,844 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:44:55,320 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:55,321 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:44:56,328 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:56,691 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:44:57,341 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:44:59,360 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:01,412 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:01,706 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:03,427 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:03,709 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:45:04,434 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:04,493 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:04,495 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:04,496 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:04,500 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:05,645 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:05,646 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:06,654 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:06,749 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:07,661 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:07,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:45:07,905 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:45:07,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:45:09,675 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:11,688 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:11,750 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:13,743 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:15,320 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:15,321 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:15,321 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:15,324 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:16,036 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:16,037 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:16,765 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:17,042 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:18,054 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:20,071 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:21,784 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:22,086 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:22,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:45:22,905 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:45:22,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:45:24,110 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:26,333 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:26,350 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:26,352 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:26,353 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:26,357 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:27,088 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:27,342 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:28,351 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:30,368 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:32,117 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:32,385 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:33,622 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:45:34,422 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:35,714 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:35,721 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:35,721 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:35,724 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:36,444 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:36,445 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:37,132 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:37,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:45:37,905 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:45:37,907 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:45:38,457 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:40,470 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:42,140 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:42,486 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:44,518 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:45,723 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:45,725 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:45,725 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:45,728 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:46,740 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:46,741 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:47,184 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:47,757 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:48,767 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:50,783 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:52,201 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:52,804 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:52,904 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:45:52,905 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:45:52,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:45:53,832 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:54,844 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:55,851 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:56,966 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:45:57,041 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:45:57,064 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:45:57,145 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:45:57,157 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:45:58,159 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:45:58,162 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:45:59,170 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:03,160 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:03,623 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:46:07,229 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:07,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:46:07,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:46:07,906 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:46:08,236 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:08,300 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:09,242 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:11,258 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:13,273 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:13,311 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:14,280 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:14,602 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:46:14,603 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:46:14,603 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:46:14,606 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:46:15,286 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:15,287 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:46:16,295 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:17,303 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:18,353 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:19,318 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:21,331 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:22,340 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:22,800 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:46:22,800 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:46:22,801 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:46:22,804 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:46:22,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:46:22,906 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:46:22,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:46:23,347 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:23,347 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:46:23,378 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:24,354 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:25,360 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:27,376 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:28,391 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:29,391 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:30,399 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:31,445 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:32,456 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:32,760 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:46:32,762 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:46:32,763 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:46:32,767 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:46:33,636 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:46:33,638 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:33,644 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:33,645 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:46:34,652 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:35,661 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:37,678 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:37,905 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:46:37,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:46:37,906 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:46:38,788 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:39,697 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:41,711 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:42,720 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:43,920 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:44,096 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:46:44,097 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:44,098 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:46:44,099 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:46:44,103 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:46:44,929 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:46:45,936 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:47,953 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:49,319 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:49,968 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:51,985 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:52,907 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:46:52,908 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:46:52,908 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:46:53,667 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:46:53,669 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:46:53,669 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:46:53,674 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:46:54,016 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:54,017 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:46:54,434 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:46:56,044 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:58,059 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:46:59,478 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:00,076 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:02,092 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:03,636 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:03,897 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:03,898 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:03,899 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:03,903 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:04,414 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:04,422 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:04,482 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:06,429 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:07,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:47:07,913 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:47:07,914 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:47:08,445 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:09,624 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:10,460 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:12,477 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:14,673 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:15,109 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:15,218 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:15,220 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:15,220 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:15,226 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:15,729 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:16,738 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:18,784 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:20,252 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:20,804 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:22,875 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:22,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:47:22,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:47:22,907 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:47:24,893 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:25,838 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:25,843 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:25,843 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:25,844 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:25,849 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:25,900 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:27,054 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:29,070 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:31,076 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:31,089 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:33,104 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:33,637 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:34,113 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:35,139 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:35,554 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:35,555 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:35,556 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:35,559 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:35,559 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:35,559 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:35,560 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:35,561 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:35,562 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:35,562 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:35,563 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:35,582 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:35,582 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:35,583 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:35,583 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:35,584 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:35,584 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:35,584 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:35,585 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:35,585 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:35,587 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:35,587 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:35,588 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:35,589 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:35,590 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:35,590 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:35,592 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:35,593 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:35,593 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:35,595 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:35,595 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:35,596 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:35,596 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:35,597 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:35,599 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:35,600 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:35,601 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:35,601 DEBUG   SenderThread:108636 [sender.py:send():379] send: config
+2024-04-09 19:47:35,603 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:35,605 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:35,973 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-09 19:47:35,973 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: log_artifact
+2024-04-09 19:47:36,157 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:36,158 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:36,159 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json
+2024-04-09 19:47:36,170 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media
+2024-04-09 19:47:36,171 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table
+2024-04-09 19:47:36,442 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:36,443 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:36,444 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:36,444 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:36,445 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:36,446 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:36,446 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:36,447 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:36,447 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:36,465 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:36,466 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:36,466 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:36,467 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:36,467 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:36,468 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:36,468 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:36,469 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:36,470 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:36,471 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:36,472 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:36,475 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:36,680 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/qsz4im55-media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json
+2024-04-09 19:47:37,175 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:37,413 INFO    wandb-upload_0:108636 [upload_job.py:push():89] Uploaded file /home/russellsb/.local/share/wandb/artifacts/staging/tmplqd8hfqb
+2024-04-09 19:47:37,906 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:47:37,907 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:47:38,106 INFO    SenderThread:108636 [sender.py:send_request_log_artifact():1456] logged artifact run-fgb337w3-train_performance_table - {'id': 'QXJ0aWZhY3Q6NzkwODA5ODM4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2MDkwMjI0NQ==', 'latestArtifact': None}}
+2024-04-09 19:47:38,107 DEBUG   SenderThread:108636 [sender.py:send():379] send: files
+2024-04-09 19:47:38,107 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:38,107 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json with policy now
+2024-04-09 19:47:38,123 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:38,124 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:38,129 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:38,132 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:38,133 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:47:38,193 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:38,608 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/ev32uxpe-media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json
+2024-04-09 19:47:39,210 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:40,230 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:41,253 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:41,370 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:41,372 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:41,372 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:41,372 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:41,373 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:41,373 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:41,374 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:41,375 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:41,376 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:41,376 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:41,377 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:41,380 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:41,402 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:41,402 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:41,403 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:41,404 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:41,404 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:41,405 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:41,405 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:41,406 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:41,407 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:41,408 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:41,409 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:41,411 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:41,413 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:41,422 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:47:41,442 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:47:42,276 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:42,278 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:43,429 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:43,437 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:44,460 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:45,528 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:46,549 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:47,741 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:48,446 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:48,762 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:50,129 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:51,151 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:52,402 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:52,411 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:52,413 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:52,415 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:52,416 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:52,491 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:52,492 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:52,572 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:52,582 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:52,621 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:52,621 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:52,622 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:52,622 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:52,623 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:52,623 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:52,624 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:52,625 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:52,627 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:52,631 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:52,633 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:52,635 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:52,682 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:52,935 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-09 19:47:52,941 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:47:52,968 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: stop_status
+2024-04-09 19:47:53,598 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:53,934 DEBUG   SenderThread:108636 [sender.py:send():379] send: files
+2024-04-09 19:47:53,934 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file media/images/Predictions_27_85be44ea1819cabf5fe0.png with policy now
+2024-04-09 19:47:53,945 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:53,979 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:53,980 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:53,981 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:53,984 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:54,630 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:54,631 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:54,632 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images/Predictions_27_85be44ea1819cabf5fe0.png
+2024-04-09 19:47:54,643 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media
+2024-04-09 19:47:54,645 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images
+2024-04-09 19:47:54,963 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/bblbx8rx-media/images/Predictions_27_85be44ea1819cabf5fe0.png
+2024-04-09 19:47:55,536 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:55,537 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:55,537 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:55,538 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:55,539 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:55,539 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:55,539 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:55,540 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:55,557 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:55,558 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:55,558 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:55,560 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:55,582 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:55,582 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:55,583 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:55,583 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:55,584 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:55,585 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:55,586 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:55,588 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:55,590 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:55,603 DEBUG   SenderThread:108636 [sender.py:send():379] send: config
+2024-04-09 19:47:55,926 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-09 19:47:55,927 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: log_artifact
+2024-04-09 19:47:55,960 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:56,001 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/xnwmcdhr-media/images/Predictions_27_85be44ea1819cabf5fe0.png
+2024-04-09 19:47:56,156 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-09 19:47:56,334 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: pause
+2024-04-09 19:47:56,334 INFO    HandlerThread:108636 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-09 19:47:56,334 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:56,335 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:56,335 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:56,336 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:56,336 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:56,337 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:56,354 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:56,354 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:56,355 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:56,355 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: resume
+2024-04-09 19:47:56,356 INFO    HandlerThread:108636 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-09 19:47:56,356 INFO    HandlerThread:108636 [system_monitor.py:start():194] Starting system monitor
+2024-04-09 19:47:56,356 INFO    SystemMonitor:108636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-09 19:47:56,357 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started cpu monitoring
+2024-04-09 19:47:56,358 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started disk monitoring
+2024-04-09 19:47:56,359 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started gpu monitoring
+2024-04-09 19:47:56,361 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started memory monitoring
+2024-04-09 19:47:56,364 INFO    SystemMonitor:108636 [interfaces.py:start():190] Started network monitoring
+2024-04-09 19:47:56,688 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:56,689 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json
+2024-04-09 19:47:56,699 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images/Confusion Matrix_29_92f796bdc95decc3b257.png
+2024-04-09 19:47:56,708 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table
+2024-04-09 19:47:56,708 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images
+2024-04-09 19:47:56,852 INFO    wandb-upload_0:108636 [upload_job.py:push():89] Uploaded file /home/russellsb/.local/share/wandb/artifacts/staging/tmp8hdbhtvq
+2024-04-09 19:47:57,137 INFO    wandb-upload_2:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/zquqil54-media/images/Confusion Matrix_29_92f796bdc95decc3b257.png
+2024-04-09 19:47:57,192 INFO    wandb-upload_1:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/f7ch955g-media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json
+2024-04-09 19:47:57,348 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:47:57,658 INFO    SenderThread:108636 [sender.py:send_request_log_artifact():1456] logged artifact run-fgb337w3-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NzkwODEwMjI5', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2MDkwMjQwNg==', 'latestArtifact': None}}
+2024-04-09 19:47:57,661 DEBUG   SenderThread:108636 [sender.py:send():379] send: files
+2024-04-09 19:47:57,669 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json with policy now
+2024-04-09 19:47:57,691 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:57,692 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:57,697 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:57,699 DEBUG   SenderThread:108636 [sender.py:send():379] send: files
+2024-04-09 19:47:57,700 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file media/images/Confusion Matrix_29_92f796bdc95decc3b257.png with policy now
+2024-04-09 19:47:57,713 DEBUG   SenderThread:108636 [sender.py:send():379] send: history
+2024-04-09 19:47:57,714 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: summary_record
+2024-04-09 19:47:57,718 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:57,723 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:57,724 DEBUG   SenderThread:108636 [sender.py:send():379] send: telemetry
+2024-04-09 19:47:57,725 DEBUG   SenderThread:108636 [sender.py:send():379] send: exit
+2024-04-09 19:47:57,725 INFO    SenderThread:108636 [sender.py:send_exit():586] handling exit code: 0
+2024-04-09 19:47:57,726 INFO    Thread-12 :108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:57,726 INFO    SenderThread:108636 [sender.py:send_exit():588] handling runtime: 293
+2024-04-09 19:47:57,739 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:57,741 INFO    SenderThread:108636 [sender.py:send_exit():594] send defer
+2024-04-09 19:47:57,741 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:47:57,742 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,743 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-09 19:47:57,744 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,744 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-09 19:47:57,745 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 1
+2024-04-09 19:47:57,745 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,746 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-09 19:47:57,746 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,747 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-09 19:47:57,747 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 2
+2024-04-09 19:47:57,747 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,748 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-09 19:47:57,748 INFO    HandlerThread:108636 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-09 19:47:57,749 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-09 19:47:57,750 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-09 19:47:57,750 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-09 19:47:57,751 DEBUG   SystemMonitor:108636 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-09 19:47:57,751 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined disk monitor
+2024-04-09 19:47:57,774 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-09 19:47:57,775 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined memory monitor
+2024-04-09 19:47:57,775 INFO    HandlerThread:108636 [interfaces.py:finish():202] Joined network monitor
+2024-04-09 19:47:57,776 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,777 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-09 19:47:57,777 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 3
+2024-04-09 19:47:57,778 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,778 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-09 19:47:57,780 DEBUG   SenderThread:108636 [sender.py:send():379] send: stats
+2024-04-09 19:47:57,781 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,781 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-09 19:47:57,782 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 4
+2024-04-09 19:47:57,782 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,783 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-09 19:47:57,784 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,784 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-09 19:47:57,784 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 5
+2024-04-09 19:47:57,785 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,785 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-09 19:47:57,787 DEBUG   SenderThread:108636 [sender.py:send():379] send: summary
+2024-04-09 19:47:57,792 INFO    SenderThread:108636 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-09 19:47:57,794 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,795 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-09 19:47:57,795 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 6
+2024-04-09 19:47:57,796 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:57,797 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-09 19:47:57,797 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:57,798 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-09 19:47:57,803 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: status_report
+2024-04-09 19:47:58,107 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 7
+2024-04-09 19:47:58,107 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:58,108 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-09 19:47:58,109 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:58,109 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-09 19:47:58,180 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/jukthjy8-media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json
+2024-04-09 19:47:58,219 INFO    wandb-upload_1:108636 [upload_job.py:push():131] Uploaded file /tmp/tmp14m_p1kowandb/nrjcptuo-media/images/Confusion Matrix_29_92f796bdc95decc3b257.png
+2024-04-09 19:47:58,348 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:47:58,616 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 8
+2024-04-09 19:47:58,616 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:47:58,616 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:58,618 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-09 19:47:58,618 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:58,619 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-09 19:47:58,619 INFO    SenderThread:108636 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-09 19:47:58,626 INFO    SenderThread:108636 [job_builder.py:_get_source_type():466] no source found
+2024-04-09 19:47:58,626 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 9
+2024-04-09 19:47:58,627 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:58,627 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-09 19:47:58,628 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:58,628 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-09 19:47:58,628 INFO    SenderThread:108636 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-09 19:47:58,804 INFO    SenderThread:108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:47:58,806 INFO    SenderThread:108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/config.yaml
+2024-04-09 19:47:58,808 INFO    SenderThread:108636 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:47:58,809 INFO    SenderThread:108636 [dir_watcher.py:finish():388] scan: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files
+2024-04-09 19:47:58,813 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/config.yaml config.yaml
+2024-04-09 19:47:58,819 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log output.log
+2024-04-09 19:47:58,826 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/requirements.txt requirements.txt
+2024-04-09 19:47:58,833 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-metadata.json wandb-metadata.json
+2024-04-09 19:47:58,833 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json wandb-summary.json
+2024-04-09 19:47:58,853 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images/Confusion Matrix_29_92f796bdc95decc3b257.png media/images/Confusion Matrix_29_92f796bdc95decc3b257.png
+2024-04-09 19:47:58,854 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/images/Predictions_27_85be44ea1819cabf5fe0.png media/images/Predictions_27_85be44ea1819cabf5fe0.png
+2024-04-09 19:47:58,860 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json media/table/conf_mat_table_28_642f7984dcdf0959c684.table.json
+2024-04-09 19:47:58,860 INFO    SenderThread:108636 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json media/table/train_performance_table_25_01aea76a7d1a0852db90.table.json
+2024-04-09 19:47:58,861 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 10
+2024-04-09 19:47:58,861 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:47:58,862 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-09 19:47:58,862 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:47:58,863 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-09 19:47:58,863 INFO    SenderThread:108636 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-09 19:47:59,189 INFO    wandb-upload_0:108636 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/requirements.txt
+2024-04-09 19:47:59,193 INFO    wandb-upload_2:108636 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/config.yaml
+2024-04-09 19:47:59,349 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:47:59,349 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:47:59,604 INFO    wandb-upload_3:108636 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/wandb-summary.json
+2024-04-09 19:48:00,349 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:48:00,350 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:48:00,694 INFO    wandb-upload_1:108636 [upload_job.py:push():131] Uploaded file /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/files/output.log
+2024-04-09 19:48:00,895 INFO    Thread-11 (_thread_body):108636 [sender.py:transition_state():614] send defer: 11
+2024-04-09 19:48:00,896 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:48:00,896 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-09 19:48:00,897 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:48:00,897 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-09 19:48:00,898 INFO    SenderThread:108636 [file_pusher.py:join():178] waiting for file pusher
+2024-04-09 19:48:00,899 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 12
+2024-04-09 19:48:00,900 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:48:00,900 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-09 19:48:00,901 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:48:00,902 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-09 19:48:00,902 INFO    SenderThread:108636 [file_stream.py:finish():614] file stream finish called
+2024-04-09 19:48:01,350 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:48:01,802 INFO    SenderThread:108636 [file_stream.py:finish():618] file stream finish is done
+2024-04-09 19:48:01,803 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 13
+2024-04-09 19:48:01,803 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:48:01,804 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:48:01,805 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-09 19:48:01,805 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:48:01,806 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-09 19:48:01,806 INFO    SenderThread:108636 [sender.py:transition_state():614] send defer: 14
+2024-04-09 19:48:01,807 DEBUG   SenderThread:108636 [sender.py:send():379] send: final
+2024-04-09 19:48:01,807 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: defer
+2024-04-09 19:48:01,807 DEBUG   SenderThread:108636 [sender.py:send():379] send: footer
+2024-04-09 19:48:01,808 INFO    HandlerThread:108636 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-09 19:48:01,809 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: defer
+2024-04-09 19:48:01,809 INFO    SenderThread:108636 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-09 19:48:01,810 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-09 19:48:01,811 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: poll_exit
+2024-04-09 19:48:01,812 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-09 19:48:01,813 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: server_info
+2024-04-09 19:48:01,814 DEBUG   SenderThread:108636 [sender.py:send_request():406] send_request: server_info
+2024-04-09 19:48:01,859 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-09 19:48:01,860 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-09 19:48:01,948 DEBUG   HandlerThread:108636 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-09 19:48:01,949 INFO    HandlerThread:108636 [handler.py:finish():866] shutting down handler
+2024-04-09 19:48:02,814 INFO    WriterThread:108636 [datastore.py:close():296] close: /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240409_194251-fgb337w3/run-fgb337w3.wandb
+2024-04-09 19:48:02,948 INFO    SenderThread:108636 [sender.py:finish():1546] shutting down sender
+2024-04-09 19:48:02,948 INFO    SenderThread:108636 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-09 19:48:02,949 INFO    SenderThread:108636 [file_pusher.py:join():178] waiting for file pusher

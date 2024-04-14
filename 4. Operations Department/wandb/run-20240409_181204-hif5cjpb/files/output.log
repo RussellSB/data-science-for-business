@@ -1,0 +1,496 @@
+2024-04-09 18:12:05.082664: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.082719: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.082729: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.104732: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.104785: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.104795: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106788: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106828: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106836: I tensorflow/core/common_runtime/placer.cc:125] seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106842: I tensorflow/core/common_runtime/placer.cc:125] seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106847: I tensorflow/core/common_runtime/placer.cc:125] seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106854: I tensorflow/core/common_runtime/placer.cc:125] ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.106861: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.108116: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.108154: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.108166: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.108172: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122652: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122696: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122705: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122710: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122715: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.122719: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126452: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126493: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126502: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126508: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126513: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.126519: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128318: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128364: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128373: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128379: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128384: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128389: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128394: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128400: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.128405: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131464: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131512: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131522: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131527: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131532: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:05.131537: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.805192: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.805242: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.805252: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.826438: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.826489: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.826498: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.829030: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.829081: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.829093: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.829099: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841060: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841105: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841114: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841119: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841124: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.841128: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848511: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848559: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848567: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848572: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848577: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.848584: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.851943: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.851995: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852007: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852014: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852023: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852031: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852039: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852045: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.852052: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856390: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856448: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856461: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856469: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856477: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:12:11.856484: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.653647: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.653694: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.653703: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.672493: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.672538: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.672547: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674397: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674433: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674441: I tensorflow/core/common_runtime/placer.cc:125] seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674445: I tensorflow/core/common_runtime/placer.cc:125] seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674450: I tensorflow/core/common_runtime/placer.cc:125] seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674456: I tensorflow/core/common_runtime/placer.cc:125] ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.674462: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.675665: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.675701: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.675710: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.675716: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690010: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690051: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690059: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690064: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690069: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.690073: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693772: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693814: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693822: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693827: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693832: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.693841: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696182: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696238: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696249: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696254: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696259: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696263: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696268: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696273: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.696277: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698881: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698921: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698930: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698935: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698940: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:51.698944: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.107086: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.107133: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.107141: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.125144: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.125190: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.125198: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.126898: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.126948: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.126964: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.126975: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141530: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141575: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141583: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141589: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141593: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.141598: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148307: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148351: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148359: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148365: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148369: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.148376: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150207: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150245: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150254: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150259: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150263: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150268: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150272: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150277: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.150281: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152752: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152790: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152798: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152803: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152807: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:14:58.152812: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+UsageError: Cell magic `%%` not found.
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.966860: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.966906: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.966915: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.985656: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.985700: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.985709: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987493: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987527: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987535: I tensorflow/core/common_runtime/placer.cc:125] seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987540: I tensorflow/core/common_runtime/placer.cc:125] seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987545: I tensorflow/core/common_runtime/placer.cc:125] seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987551: I tensorflow/core/common_runtime/placer.cc:125] ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.987556: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.988587: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.988620: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.988630: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:09.988636: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003479: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003520: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003529: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003533: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003538: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.003542: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007074: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007111: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007119: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007124: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007128: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.007134: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008668: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008703: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008712: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008716: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008721: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008726: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008730: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008735: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.008739: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011227: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011270: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011278: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011283: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011288: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:10.011293: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.772510: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.772559: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.772568: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.791803: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.791847: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.791855: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.795368: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.795427: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.795447: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.795462: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810220: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810280: I tensorflow/core/common_runtime/placer.cc:125] GeneratorDataset: (GeneratorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810296: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810344: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810359: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.810396: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.817931: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.817976: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.817994: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.818002: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.818007: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.818014: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820042: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820085: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820103: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820113: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820118: I tensorflow/core/common_runtime/placer.cc:125] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820123: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820127: I tensorflow/core/common_runtime/placer.cc:125] FakeSink1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820132: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.820137: I tensorflow/core/common_runtime/placer.cc:125] identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823451: I tensorflow/core/common_runtime/placer.cc:125] args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823495: I tensorflow/core/common_runtime/placer.cc:125] PyFunc: (PyFunc): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823504: I tensorflow/core/common_runtime/placer.cc:125] NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823509: I tensorflow/core/common_runtime/placer.cc:125] Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823514: I tensorflow/core/common_runtime/placer.cc:125] FakeSink0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 18:15:16.823519: I tensorflow/core/common_runtime/placer.cc:125] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]
+[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "gpus", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]

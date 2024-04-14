@@ -1,0 +1,57 @@
+
+Epoch 1/15
+/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 531ms/step - accuracy: 0.3233 - loss: 1.4133
+Epoch 1: val_loss improved from inf to 1.35214, saving model to weights.keras
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m45s[22m 707ms/step - accuracy: 0.3242 - loss: 1.4118 - val_accuracy: 0.3077 - val_loss: 1.3521
+Epoch 2/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 487ms/step - accuracy: 0.4811 - loss: 1.0869
+Epoch 2: val_loss did not improve from 1.35214
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m33s[22m 602ms/step - accuracy: 0.4823 - loss: 1.0852 - val_accuracy: 0.2596 - val_loss: 1.8899
+Epoch 3/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 509ms/step - accuracy: 0.5490 - loss: 0.9441
+Epoch 3: val_loss did not improve from 1.35214
+[1m54/54[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m35s[22m 630ms/step - accuracy: 0.5498 - loss: 0.9436 - val_accuracy: 0.2500 - val_loss: 1.7464
+Epoch 4/15

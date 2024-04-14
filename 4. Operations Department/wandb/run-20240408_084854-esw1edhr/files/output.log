@@ -1,0 +1,13 @@
+Epoch 1/25
+[1m  1/200[22m [37m━━━━━━━━━━━━━━━━━━━━[39m [1m5:23[22m 2s/step - accuracy: 0.8750 - loss: 0.6492
+/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+
+
+
+
+
+
+
+
+
+[1m 36/200[22m [32m━━━[37m━━━━━━━━━━━━━━━━━[39m [1m1:24[22m 517ms/step - accuracy: 0.7741 - loss: 0.5789

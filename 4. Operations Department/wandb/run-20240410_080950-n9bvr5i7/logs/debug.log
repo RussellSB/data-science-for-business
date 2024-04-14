@@ -1,0 +1,72 @@
+2024-04-10 08:09:50,505 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-10 08:09:50,506 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Configure stats pid to 154250
+2024-04-10 08:09:50,506 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Loading settings from /home/russellsb/.config/wandb/settings
+2024-04-10 08:09:50,507 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/settings
+2024-04-10 08:09:50,507 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-10 08:09:50,507 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-10 08:09:50,508 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-10 08:09:50,508 INFO    MainThread:154250 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-10 08:09:50,509 INFO    MainThread:154250 [wandb_init.py:_log_setup():521] Logging user logs to /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240410_080950-n9bvr5i7/logs/debug.log
+2024-04-10 08:09:50,510 INFO    MainThread:154250 [wandb_init.py:_log_setup():522] Logging internal logs to /mnt/c/Users/rsamm/root/repos/Data Science for Business Package/4. Operations Department/wandb/run-20240410_080950-n9bvr5i7/logs/debug-internal.log
+2024-04-10 08:09:50,510 INFO    MainThread:154250 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f23d9e6b2b0>
+2024-04-10 08:09:50,510 INFO    MainThread:154250 [wandb_init.py:init():561] calling init triggers
+2024-04-10 08:09:50,511 INFO    MainThread:154250 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-10 08:09:50,511 INFO    MainThread:154250 [wandb_init.py:init():611] starting backend
+2024-04-10 08:09:50,511 INFO    MainThread:154250 [wandb_init.py:init():615] setting up manager
+2024-04-10 08:09:50,517 INFO    MainThread:154250 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-10 08:09:50,518 INFO    MainThread:154250 [wandb_init.py:init():623] backend started and connected
+2024-04-10 08:09:50,530 INFO    MainThread:154250 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-10 08:09:50,531 INFO    MainThread:154250 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-10 08:09:50,531 INFO    MainThread:154250 [wandb_init.py:init():715] updated telemetry
+2024-04-10 08:09:50,545 INFO    MainThread:154250 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-10 08:09:51,001 INFO    MainThread:154250 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-10 08:09:51,106 INFO    MainThread:154250 [wandb_run.py:_on_init():2366] got version response 
+2024-04-10 08:09:51,107 INFO    MainThread:154250 [wandb_init.py:init():799] starting run threads in backend
+2024-04-10 08:09:51,275 INFO    MainThread:154250 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-10 08:09:51,275 INFO    MainThread:154250 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-10 08:09:51,276 INFO    MainThread:154250 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-10 08:09:51,276 INFO    MainThread:154250 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-10 08:09:51,278 INFO    MainThread:154250 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-10 08:09:51,279 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:09:51,279 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:09:51,290 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:09:51,461 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:09:51,462 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:09:51,473 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:13:49,223 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:13:49,224 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:13:49,239 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:13:49,244 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:13:49,248 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:13:49,256 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:13:49,261 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:13:49,262 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:13:49,275 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:13:49,279 INFO    MainThread:154250 [wandb_run.py:_config_callback():1347] config_cb ('_wandb', 'visualize', 'train_performance') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'Train Accuracy and Loss', 'xname': 'Epoch'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'train_performance_table'}], 'fields': []}]}]}}} None
+2024-04-10 08:13:49,622 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:13:49,622 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:13:49,634 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:13:54,870 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:13:54,870 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:13:54,891 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:14:09,354 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:14:09,355 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:14:09,370 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:14:14,045 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:14:14,046 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:14:14,079 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:14:14,100 INFO    MainThread:154250 [wandb_run.py:_config_callback():1347] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2024-04-10 08:14:14,902 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:14:14,903 INFO    MainThread:154250 [wandb_init.py:_pause_backend():432] pausing backend
+2024-04-10 08:14:14,914 INFO    MainThread:154250 [wandb_init.py:_resume_backend():437] resuming backend
+2024-04-10 08:14:14,917 INFO    MainThread:154250 [wandb_run.py:_finish():2064] finishing run russellsb/x-ray-chest-disease-classification/n9bvr5i7
+2024-04-10 08:14:14,919 ERROR   MainThread:154250 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-10 08:14:14,919 INFO    MainThread:154250 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-10 08:14:14,920 INFO    MainThread:154250 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-10 08:14:14,920 INFO    MainThread:154250 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-10 08:14:14,921 INFO    MainThread:154250 [wandb_run.py:_restore():2287] restore
+2024-04-10 08:14:14,922 INFO    MainThread:154250 [wandb_run.py:_restore():2293] restore done
+2024-04-10 08:14:21,246 INFO    MainThread:154250 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-10 08:14:21,247 INFO    MainThread:154250 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-10 08:14:21,260 INFO    MainThread:154250 [wandb_run.py:_footer_sync_info():3895] logging synced files

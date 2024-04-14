@@ -1,0 +1,68 @@
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op TensorDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op FlatMapDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op DummySeedGenerator in device /job:localhost/replica:0/task:0/device:CPU:0
+DummySeedGenerator: (DummySeedGenerator): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op ShuffleDatasetV3 in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op PrefetchDataset in device /job:localhost/replica:0/task:0/device:CPU:0
+Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Epoch 1/100
+Executing op AnonymousIteratorV3 in device /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Executing op MakeIterator in device /job:localhost/replica:0/task:0/device:CPU:0
+AnonymousIteratorV3: (AnonymousIteratorV3): /job:localhost/replica:0/task:0/device:CPU:0
+dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+MakeIterator: (MakeIterator): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.606291: I tensorflow/core/common_runtime/placer.cc:125] components_0: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.606335: I tensorflow/core/common_runtime/placer.cc:125] TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.606343: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.630383: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.630425: I tensorflow/core/common_runtime/placer.cc:125] FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.630433: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.636040: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.636085: I tensorflow/core/common_runtime/placer.cc:125] DummySeedGenerator: (DummySeedGenerator): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638836: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638878: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638886: I tensorflow/core/common_runtime/placer.cc:125] seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638890: I tensorflow/core/common_runtime/placer.cc:125] seed2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638896: I tensorflow/core/common_runtime/placer.cc:125] seed__generator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638906: I tensorflow/core/common_runtime/placer.cc:125] ShuffleDatasetV3: (ShuffleDatasetV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.638921: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.644350: I tensorflow/core/common_runtime/placer.cc:125] input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.644390: I tensorflow/core/common_runtime/placer.cc:125] buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.644401: I tensorflow/core/common_runtime/placer.cc:125] PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.644407: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.650290: I tensorflow/core/common_runtime/placer.cc:125] resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:37:22.650334: I tensorflow/core/common_runtime/placer.cc:125] value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:37:22.650346: I tensorflow/core/common_runtime/placer.cc:125] AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 17:37:22.656565: I tensorflow/core/common_runtime/placer.cc:125] handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.656606: I tensorflow/core/common_runtime/placer.cc:125] AnonymousIteratorV3: (AnonymousIteratorV3): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.658528: I tensorflow/core/common_runtime/placer.cc:125] dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.658571: I tensorflow/core/common_runtime/placer.cc:125] iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 17:37:22.658582: I tensorflow/core/common_runtime/placer.cc:125] MakeIterator: (MakeIterator): /job:localhost/replica:0/task:0/device:CPU:0

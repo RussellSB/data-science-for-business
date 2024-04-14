@@ -1,0 +1,59 @@
+
+Epoch 1/25
+[1m 1/26[22m [37m━━━━━━━━━━━━━━━━━━━━[39m [1m3:07[22m 8s/step - accuracy: 0.2500 - loss: 1.9603
+/home/russellsb/.cache/pypoetry/virtualenvs/data_science_for_business_package-muNh-jkR-py3.10/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 285ms/step - accuracy: 0.2102 - loss: 1.5053
+Epoch 1: val_loss improved from inf to 1.41518, saving model to weights.keras
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m23s[22m 629ms/step - accuracy: 0.2124 - loss: 1.5014 - val_accuracy: 0.2500 - val_loss: 1.4152
+Epoch 2/25
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 295ms/step - accuracy: 0.4508 - loss: 1.2571
+Epoch 2: val_loss improved from 1.41518 to 1.38437, saving model to weights.keras
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m16s[22m 645ms/step - accuracy: 0.4530 - loss: 1.2550 - val_accuracy: 0.3173 - val_loss: 1.3844
+Epoch 3/25
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 365ms/step - accuracy: 0.5054 - loss: 1.1258
+Epoch 3: val_loss improved from 1.38437 to 1.35519, saving model to weights.keras
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m17s[22m 678ms/step - accuracy: 0.5060 - loss: 1.1253 - val_accuracy: 0.3077 - val_loss: 1.3552
+Epoch 4/25
+
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 343ms/step - accuracy: 0.5632 - loss: 1.0272
+Epoch 4: val_loss improved from 1.35519 to 1.33429, saving model to weights.keras
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m17s[22m 667ms/step - accuracy: 0.5627 - loss: 1.0270 - val_accuracy: 0.3750 - val_loss: 1.3343
+Epoch 5/25
+[1m 3/26[22m [32m━━[37m━━━━━━━━━━━━━━━━━━[39m [1m7s[22m 317ms/step - accuracy: 0.8056 - loss: 0.7612
+2024-04-08 08:45:23.835956: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+/usr/lib/python3.10/contextlib.py:153: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(typ, value, traceback)
+Epoch 5: val_loss did not improve from 1.33429
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m8s[22m 296ms/step - accuracy: 0.6827 - loss: 0.6619 - val_accuracy: 0.2596 - val_loss: 1.3432
+Epoch 6/25
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 300ms/step - accuracy: 0.5984 - loss: 0.9573
+Epoch 6: val_loss did not improve from 1.33429
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m15s[22m 563ms/step - accuracy: 0.5997 - loss: 0.9577 - val_accuracy: 0.3846 - val_loss: 1.3379
+Epoch 7/25
+
+
+
+
+
+[1m26/26[22m [32m━━━━━━━━━━━━━━━━━━━━[39m [1m0s[22m 301ms/step - accuracy: 0.6843 - loss: 0.8430[{"variableName": "axes", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "cm", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "evaluate", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "image", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "img", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "label_names", "type": "dictionary", "supportedEngines": ["pandas"]}, {"variableName": "original", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "prediction", "type": "list", "supportedEngines": ["pandas"]}, {"variableName": "train_images", "type": "ndarray", "supportedEngines": ["pandas"]}, {"variableName": "train_labels", "type": "ndarray", "supportedEngines": ["pandas"]}]

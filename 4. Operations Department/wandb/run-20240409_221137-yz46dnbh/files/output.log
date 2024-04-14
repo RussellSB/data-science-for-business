@@ -1,0 +1,114 @@
+2024-04-09 22:11:40.421104: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.422011: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.423464: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.423918: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.426629: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.426922: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.427723: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.428245: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.429329: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.429758: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.430479: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:11:40.430924: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+Found 428 images belonging to 4 classes.
+Found 104 images belonging to 4 classes.
+2024-04-09 22:12:01.924894: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.925602: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.926177: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.926953: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.927689: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.928511: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.929005: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.929362: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.929828: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.931221: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.931258: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.932232: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.932983: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.933924: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.934092: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.935300: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.935342: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.935950: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.936537: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.939257: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.939797: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.940315: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.940707: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.943650: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.944336: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.944823: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.945603: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.946016: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.946638: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.947191: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.947678: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.948317: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.949432: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.949515: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.950328: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.950757: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.951699: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.951964: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.953306: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.953391: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.954179: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.954562: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.956785: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.957385: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.957902: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.958344: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.964042: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.964771: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.965025: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.965395: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.965998: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.966945: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.967326: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.967606: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.967968: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.968941: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.968992: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.969622: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.969982: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.970453: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.970586: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.971245: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.971278: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.971722: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.971982: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.974392: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:CPU:0
+2024-04-09 22:12:01.974876: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.975175: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Cast in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.975553: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.975882: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomGetKeyCounter in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.976476: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op StatelessRandomUniformV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.976845: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Sub in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.977134: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Mul in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.977392: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AddV2 in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.978408: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.978446: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.978958: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.979264: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.979711: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op _EagerConst in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.979868: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op Fill in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.980728: I tensorflow/core/common_runtime/placer.cc:125] resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.980765: I tensorflow/core/common_runtime/placer.cc:125] VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.981168: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op VarHandleOp in device /job:localhost/replica:0/task:0/device:GPU:0
+2024-04-09 22:12:01.981411: I tensorflow/core/common_runtime/eager/execute.cc:1756] Executing op AssignVariableOp in device /job:localhost/replica:0/task:0/device:GPU:0
