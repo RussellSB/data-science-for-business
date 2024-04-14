@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "data science for business package"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+seaborn = "^0.13.2"
+missingno = "^0.5.2"
+prophet = "^1.1.5"
+opencv-python = "^4.9.0.80"
+wandb = "^0.16.6"
+tensorflow = {extras = ["and-cuda"], version = "^2.16.1"}
+wordcloud = "^1.9.3"
+svgwrite = "^1.4.3"
+nltk = "^3.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
